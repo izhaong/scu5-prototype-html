@@ -63,6 +63,9 @@
 }
 .form_disabled {
 }
+.text_field {
+  text-align:left;
+}
 .flow_shape {
 }
 .connector {
