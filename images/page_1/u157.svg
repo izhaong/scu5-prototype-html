@@ -1,7 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="398px" height="306px" xmlns="http://www.w3.org/2000/svg">
-  <g transform="matrix(1 0 0 1 -1487 -745 )">
-    <path d="M 397.5 0  L 0.5 0  L 0.5 303.59013867488426  C 0 304.3796610169488  0.24649106302916643 305  0.560206961429916 305.5  L 396.4397930385701 305.5  C 396.75350893697083 305  397 304.3796610169488  397.5 303.59013867488426  L 397.5 0  Z " fill-rule="nonzero" fill="#ffffff" stroke="none" transform="matrix(1 0 0 1 1487 745 )" />
-    <path d="M 0.5 0  L 0.5 303.59013867488426  C 0 304.3796610169488  0.24649106302916643 305  0.560206961429916 305.5  L 396.4397930385701 305.5  C 396.75350893697083 305  397 304.3796610169488  397.5 303.59013867488426  L 397.5 0  " stroke-width="1" stroke="#e9e9e9" fill="none" transform="matrix(1 0 0 1 1487 745 )" />
+<svg version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="43px" height="44px" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask fill="white" id="clip982">
+      <path d="M 808.5 161  C 805.4475 161  803 158.5525  803 155.5  L 803 154.5  C 803 151.4475  805.4475 149  808.5 149  L 808.5 149  C 811.5525 149  814 151.4475  814 154.5  L 814 155.5  C 814 158.5525  811.5525 161  808.5 161  " fill-rule="evenodd" />
+    </mask>
+    <filter x="789px" y="135px" width="43px" height="44px" filterUnits="userSpaceOnUse" id="filter983">
+      <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetInner" />
+      <feGaussianBlur stdDeviation="8" in="shadowOffsetInner" result="shadowGaussian" />
+      <feComposite in2="shadowGaussian" operator="atop" in="SourceAlpha" result="shadowComposite" />
+      <feColorMatrix type="matrix" values="0 0 0 0 0.6666666666666666  0 0 0 0 0.6666666666666666  0 0 0 0 0.6666666666666666  0 0 0 0.34901960784313724 0  " in="shadowComposite" />
+    </filter>
+    <g id="widget984">
+      <image preserveAspectRatio="none" style="overflow:visible" width="11" height="12" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAeCAYAAAA/xX6fAAAAAXNSR0IArs4c6QAAAxJJREFUSA29l91vTEEYh1d9F62voFK01ShFKiGIi0oQCZFwoYn441yLuHDhChFpJOiVhkhW0LSabHxFW5SK4nm6ZzZnz55z2mrXL3k6n2femXfemdkWCv9ZS+ZhbwV9m2L46USMn1bMptkM2t4KPdAOWf3/0DYEgzAKllOVNYCdd0EvbLCAHKQE4/AV1BpohhZoAPUZ+mHYQlJpBq07CseizpOkj+A1/IjqkslKKjrgBDgJ9QQGoGq1SYPL6HABdoJ6CQ8gyxBNVdLwSdgb1Y6Q3oZfUbmwNGSi9BRpJ3yHu+AMK53JB+0g4+CuPq5pCnriI9hnM7jiNzCjuMFuanTjb7gJbn6a9MpVcN+ep3Wgzn10dfthC3yBD1BZoRt/ERrgMbyCPH2i0T4heNL6htW30mgAuj1TYYWubDu8g3tQtdGUkxqjIs9Y6F8i0wbroophDS6Hs6CrboH7lyb35DToJt1vgL2HPDlxjR6AjTDoR3vAABgCfZ+lNho0GrSezLNQyEl1/1vQrV0adPNVJZLKxZq/D6kpwiq4BMkjRVWmjFwNtmjQ+1G59DzpHl2owfkqjN1kVBqh6ls5qcvfMHazBhsjE1N1MVUeNNxUjRoM5+VfXDXXORqUalKD3v7KK6heCmOPa9BHVIVoLZcW928Ye0KDIYJ2L66NqtE6olJJgzN3HKmHelPUkJZ4fLyIfQGU31qWEHhka+QD7nNnUBbD4e2lcAg8ZzfAFyMu79nL8YpE3v7XIARgaHZSfbAVnkK/B18NwkFwtkdgAOIao+DVtzpeGcsbByH0Y9WFwxQ0Ng3aqLqeuimfAWd7HXxEFyJdfwVcpS/QC6i8h+Z9IH1GXGUneFzyLnOaM+X358Cflhry982MfJ7iGqGgC5ydr4jX3ijokrlIl+ul4+Cz53h3oBITSYM2FEH5Umt4H7g//kzIMuwt1QXnYRsoV3UfKsasDFFqPimfk14wrJUfemZ1dbiM15LXCx7sMJbb0A/DUKPQqaYhVuH57IF2yOrv02UUG4k+tpnKGiDtAwNgwf9b/AX9JJiOh6fOaAAAAABJRU5ErkJggg==" x="803px" y="149px" mask="url(#clip982)" />
+    </g>
+  </defs>
+  <g transform="matrix(1 0 0 1 -789 -135 )">
+    <use xlink:href="#widget984" filter="url(#filter983)" />
+    <use xlink:href="#widget984" />
   </g>
 </svg>
